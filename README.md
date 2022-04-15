@@ -3,7 +3,7 @@
 # About
 API created to consult cryptocurrencies prices over time. It uses Laravel 9 and a [API client](https://github.com/codenix-sv/coingecko-api) recommended by [CoinGecko](https://www.coingecko.com/en/api/documentation). The API has two main endpoints: one to check the current price of a cryptocurrency and other to check the price on a specific date. It also stores the price and date from five different coins. I also implemented Repository Design Pattern wich creates one new level of abstraction between the model and controller layers.
 
-### Available coins do search:
+### Available coins to search:
 - btc
 - dacxi
 - eth
